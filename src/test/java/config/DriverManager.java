@@ -22,12 +22,13 @@ public class DriverManager {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions options = new ChromeOptions();
+//                    Using browserProfile for cookies & addblocker for ads
                     options.addArguments("user-data-dir=" + profilePath);
                     options.addArguments("load-extension="+pathUblock);
                     driver = new ChromeDriver(options);
                     driver.manage().window().maximize();
                     driver.get("about:blank");
-//                    Sleep is used to activate adblock (depends on workstation performence)
+//                    Sleep is used to activate adblock (depends on workstation performance)
                     try {
                         Thread.sleep(2000);
                     } catch (Exception e){}
