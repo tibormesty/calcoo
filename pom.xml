@@ -5,10 +5,6 @@
   <groupId>com.calkoo</groupId>
   <artifactId>calkoo</artifactId>
   <version>1.0-SNAPSHOT</version>
-<!--  <packaging>jar</packaging>-->
-
-<!--  <name>calkoo</name>-->
-<!--  <url>http://maven.apache.org</url>-->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,7 +20,6 @@
       <version>7.14.0</version>
       <scope>test</scope>
     </dependency>
-
     <!-- Cucumber -->
     <dependency>
       <groupId>io.cucumber</groupId>
@@ -41,19 +36,6 @@
       <artifactId>cucumber-core</artifactId>
       <version>7.14.0</version>
     </dependency>
-<!--    <dependency>-->
-<!--      <groupId>org.seleniumhq.selenium</groupId>-->
-<!--      <artifactId>selenium-devtools-v85</artifactId>-->
-<!--      <version>4.14.0</version>-->
-<!--    </dependency>-->
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
-<!--    <dependency>-->
-<!--      <groupId>junit</groupId>-->
-<!--      <artifactId>junit</artifactId>-->
-<!--      <version>4.4</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-
     <!-- WebD Manager -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
