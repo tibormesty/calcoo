@@ -1,0 +1,18 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2015 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property laws,
+* including trade secret and or copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+.ae68bdebea-express-tooltip{position:absolute;display:inline-block;width:0;height:0;top:0;right:0;background-color:transparent;border-radius:4px 0 0 0}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext{visibility:hidden;display:flex;flex-direction:column;gap:4px;width:280px;background-color:#0265dc;color:#fff;text-align:center;border-radius:6px;padding:12px 16px;position:absolute;box-shadow:0 4px 4px 0 #00000040;z-index:1;box-sizing:border-box}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-top{bottom:calc(100% + 4px);left:0;right:0;margin-left:auto;margin-right:auto}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-left{left:calc(100% + 6px);top:10%}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-right{right:calc(100% + 6px);top:10%}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltiptext-title{display:flex;flex-direction:row;flex-wrap:wrap;column-gap:10px}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltiptext-title-text{font-family:Adobe Clean!important;font-weight:700;font-size:14px;line-height:18px;text-wrap:wrap;text-align:left}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltip-icon{width:18.67px;height:18px}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltiptext-description{font-family:Adobe Clean!important;font-weight:400;font-size:12px;line-height:18px;text-wrap:wrap;text-align:left}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltiptext-footer{font-family:Adobe Clean!important;font-weight:70;font-size:12px;line-height:18px;text-wrap:wrap;text-align:left}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext .ae68bdebea-express-tooltiptext-footer strong{font-style:bold}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-left:after{content:"";position:absolute;top:50%;right:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent #0265dc transparent transparent}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-right:after{content:"";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent #0265dc}.ae68bdebea-express-tooltip .ae68bdebea-express-tooltiptext-top:after{content:"";position:absolute;top:100%;left:50%;margin-left:-4px;border-width:4px;border-style:solid;border-color:#0265dc transparent transparent}

@@ -111,10 +111,9 @@ public class VatPage {
     }
 
     private WebElement getShadowElement(String shadowId){
-        WebElement shadowHost = driver.findElement(By.cssSelector("#"+shadowId+""));
+        WebElement shadowHost = driver.findElement(By.cssSelector("#"+shadowId));
         SearchContext shadowRoot = shadowHost.getShadowRoot();
-        WebElement shadowElement = shadowRoot.findElement(By.cssSelector("div"));
-        return shadowElement;
+        return shadowRoot.findElement(By.cssSelector("div"));
     }
 
 }
