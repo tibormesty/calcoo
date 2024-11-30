@@ -1,4 +1,4 @@
-# calcoo TEST feature
+# calcoo VAT (JAVA, Selenium, Cucumber)
 Automated tests for calcoo VAT calculator
 
 ### Prerequisites
