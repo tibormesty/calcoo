@@ -13,7 +13,7 @@ public class DriverManager {
 
     private WebDriver driver;
     private static String profilePath = System.getProperty("user.dir") + File.separator + "profile";
-    private static String pathUblock = "C:/ublock";
+//    private static String pathUblock = "C:/ublock";
 
 
     public WebDriver getDriver(String browser) throws IllegalArgumentException {
@@ -24,7 +24,7 @@ public class DriverManager {
                     ChromeOptions options = new ChromeOptions();
 //                    Using browserProfile for cookies & addblocker for ads
                     options.addArguments("user-data-dir=" + profilePath);
-                    options.addArguments("load-extension="+pathUblock);
+//                    options.addArguments("load-extension="+pathUblock);
                     driver = new ChromeDriver(options);
                     driver.manage().window().maximize();
                     driver.get("about:blank");
