@@ -20,7 +20,7 @@ public class ConsentHandler {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             WebElement consentButton = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//button/p[contains(text(),'Consent')]") // Change locator as needed
+                    By.xpath("//button/p[contains(text(),'Consent')]")
             ));
             consentButton.click();
         } catch (Exception e) {
