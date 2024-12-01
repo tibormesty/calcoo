@@ -4,6 +4,8 @@ https://www.calkoo.com/
 
 
 ### Prerequisites
-To run test without unwanted issues ublock browser extension should be downloaded and its path included in pathUblock variable in DriverManager.java, but ConsentHandler handle introduction consent and tests should run ok. 
+To run test without unwanted issues ublock browser extension should be downloaded and extracted and its path included in pathUblock variable in DriverManager.java
+https://chromewebstore.google.com/detail/ublock/epcnnfbjfcgphgdmggkamkmgojdagdnn.
 
+Although test should be executed without any issues, and is handled by ConsentHandler().
 
